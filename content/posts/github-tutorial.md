@@ -179,10 +179,14 @@ git commit -m "Descrizione chiara"
 git push
 ```
 
-## CONSIGLI PRATICI
+## CONSIGLI PRATICI E ALTRI SPUNTI
 
 - #### Commit frequenti: Fai commit piccoli e frequenti
 - #### Messaggi descrittivi: Usa messaggi di commit chiari
 - #### Pull prima del push: Sempre aggiornare prima di pushare
 - #### Branch per feature: Usa branch separati per ogni feature
 - #### Backup regolare: Pusha regolarmente su GitHub
+
+### Video tutorial
+
+{{< youtube jpOqT_JWric >}}
