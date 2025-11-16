@@ -5,6 +5,10 @@ theme: PaperMod
 
 enableRobotsTXT: true
 
+taxonomies:
+  category: categories
+  tag: tags
+
 params:
   profileMode:
     enabled: true
