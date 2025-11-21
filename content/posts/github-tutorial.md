@@ -5,7 +5,7 @@ title: 'Git & Github Tutorial per principianti'
 categories: [tutorials]
 tags: [git, github, guide]
 cover:
-    image: images/github-guide.webp
+    image: images/github-guide.png
     hiddenInList: false
 ---
 

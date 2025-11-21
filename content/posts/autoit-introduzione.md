@@ -5,7 +5,7 @@ title: 'AutoIt v3: il “piccolo grande” linguaggio per Windows'
 categories: []
 tags: []
 cover:
-  image: images/autoit.webp
+  image: images/autoit.png
   hiddenInList: false
 ---
 
