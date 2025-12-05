@@ -14,8 +14,6 @@ cover:
 
 ---
 
-## Installare wxWidgets su windows 11 con vcpkg per msvc
-
 *testato su Windows 11.*
 
 ## Guida passo dopo passo
