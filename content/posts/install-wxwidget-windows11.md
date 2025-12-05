@@ -29,23 +29,29 @@ Andiamo dritto al sodo:
 
 Apri il Terminale o Powershell, assicurati di lavorare nella cartella 'dev' appena creata dopodichè, digita i seguenti comandi:
 
-> git clone <https://github.com/Microsoft/vcpkg.git>
-> cd vcpkg
-> .\bootstrap-vcpkg.bat
-> .\vcpkg integrate install
+```bash
+git clone <https://github.com/Microsoft/vcpkg.git>
+cd vcpkg
+.\bootstrap-vcpkg.bat
+.\vcpkg integrate install
+```
 
 ## Installare la libreria wxWidgets nella versione per il compilatore MSVC
 
 In questo caso il comando seguente installerà la versione statica della libreria, ma tu sei libero ovviamente di installare la versione dinamica...
-> .\vcpkg install wxwidgets:x64-windows-static
+
+```bash
+.\vcpkg install wxwidgets:x64-windows-static
+```
 
 ## Aggiungere ai CMake options wxWidgets
 
 In Clion o altro IDE, aggiungi ai CMake options i seguenti argomenti:
 
+```bash
 > -DCMAKE_TOOLCHAIN_FILE=C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake
 > -DVCPKG_TARGET_TRIPLET=x64-windows-static
-
+```
 Adesso non ci resta di creare un progetto CMake e configurare il CMakeLists.txt.
 
 > CMakeLists.txt
@@ -77,6 +83,8 @@ target_link_options(wxtest PRIVATE
 ```
 
 Ora nel file main.cpp scriviamo questo codice esempio:
+
+> main.cpp
 
 ```cpp
 // wxWidgets "Hello World" Program
